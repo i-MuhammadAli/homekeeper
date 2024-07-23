@@ -1,0 +1,602 @@
+@import url(//db.onlinewebfonts.com/c/6228016f2b172c06410f3a2356d33f6c?family=Roobert-Regular);
+body {
+  font-family: 'Roobert-Regular';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* .....................header......................... */
+
+.main-header {
+  padding: 12px 0;
+  box-shadow: 0 0 10px #dcdcdc;
+  width: 100%;
+  background: #fff;
+  z-index: 9;
+}
+.head-right ul.lginmain {
+  margin-top: 10px;
+}
+.head-right .form-inline {
+  width: 470px;
+  position: relative;
+  float: left;
+  margin-right: 40px;
+}
+.head-right .form-inline .form-control {
+  width: 100%;
+  padding: 0px 45px 0px 20px;
+  border-radius: 10px;
+  background: #F1F1F1;
+  border: none;
+  height: 50px;
+  line-height:50px;
+}
+.head-right .form-inline .form-control::placeholder{
+color: #B4B4B4;
+}
+
+.head-right .form-inline svg {
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  color: #999;
+  font-size: 24px;
+}
+
+.head-right .form-inline i {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    font-size: 17px;
+}
+.main-header .navbar .nav-item a {
+  color: #000;
+  display: inline-block;
+  font-weight: 400;
+  padding: 0;
+  position: relative;
+}
+.main-header .navbar .nav-item {
+  float: left;
+  margin: 0 26px;
+  padding: 18px 0;
+}
+
+
+
+
+.head-right ul {
+  padding-left: 0;
+  float: right;
+  margin-bottom: 0;
+}
+.head-right ul li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    font-weight: 400;
+    position: relative;
+}
+.head-right ul li .dropdown a {
+    color: #000;
+    font-weight: 500;
+}
+
+
+.lginmain.withlogin {
+  margin-top: 9px !important;
+}
+.lginmain.withlogin li.login a img {
+  width: 34px;
+}
+
+.main-header .navbar .nav-item a.active {
+  color: #345A76;
+  font-weight: 500;
+}
+
+.main-header h6 {
+  text-align: right;
+}
+.main-header h6 {
+  text-align: right;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.main-header h6 a {
+  color: #3d9ddd;
+  text-decoration: none;
+}
+.head-right ul li.login a {
+  text-decoration: none;
+  color: #192327;
+  font-weight: 500;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 40px;
+  margin-right: 10px;
+  padding: 0 20px;
+  border: 1px solid #192327;
+  width: 110px;
+}
+.head-right ul li.signup a {
+  color: #fff;
+  font-weight: 500;
+  display: inline-block;
+  height: 40px;
+  background: #192327;
+  border-radius: 5px;
+  text-decoration: navajowhite;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 20px;
+   width: 110px;
+}
+
+.head-right .navbar {
+  padding: 0;
+  display: inline-block;
+  margin-left: 10%;
+}
+.logo img{
+  height: 50px;
+}
+
+
+
+/************ login section ****************/
+section.login {
+  padding: 0;
+  background: #f2f7f9;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+section.login .in_login {
+  height: 590px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  left: 0;
+}
+section.login .in_login img {
+  height: 60px;
+}
+.login .form-control {
+  border: 1px solid #f4f0ee;
+  border-radius: 5px;
+  padding: 12px 15px;
+  height: auto;
+  margin-bottom: 20px;
+  box-shadow: ;
+}
+
+.login .form-signin button {
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  height: 48px;
+  background: #3d9ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 25px;
+}
+.login h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #192327;
+  margin-bottom: 15px;
+}
+.login .social a img {
+  margin-right: 10px;
+  height: 26px;
+}
+
+.login p {
+  margin-top: 30px;
+  color: #192327;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.login .password {
+    position: relative;
+}
+
+.login .password  .fa-eye{
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    margin: auto;
+    color: #192327;
+}
+
+.login .into label {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    margin: auto;
+    color: #989898;
+}
+.login .form-signin {
+  background: #fff;
+  padding: 35px 70px 25px;
+  width: 600px;
+  margin: auto ;
+  border-radius: 6px;
+}
+.login .form-control::placeholder {
+  color: #afafaf;
+}
+.login.register .usr h4 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #192327;
+  margin-bottom: 8px;
+}
+.login.register .form-group p {
+    margin-top: -14px;
+    margin-bottom: 20px;
+    color: #626262;
+    font-size: 15px;
+}
+.login.register p.text-center {
+    margin-top: 12px;
+}
+  
+.login.register .form-signin button{
+  margin-top: 0;
+}
+.login h6 {
+  color: #484747;
+  margin-bottom: 40px;
+}
+.login .form-signin label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #192327;
+  font-weight: 500;
+}
+.login .form-signin a.forg {
+  float: right;
+  color: #3d9ddd;
+  font-weight: 500;
+  text-decoration: navajowhite;
+}
+.login .form-signin .checkbox label {
+  font-size: 17px;
+}
+.login .form-signin .checkbox label input {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+.login p a{
+  color: #3d9ddd;
+  text-decoration: none;
+}
+
+
+/****************** register ***************/
+.login.register {
+  position: relative;
+  padding: 40px 0 120px;
+}
+
+
+.login.register .Closemore li {
+  padding-left: 37px;
+  list-style: none;
+  margin-bottom: 9px;
+  background-image: url(../images/tik.png);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: center left;
+  color: #192327;
+}
+
+.login.register .Closemore {
+  padding: 0;
+  border-bottom: 1px solid #d3d7d9;
+  padding-bottom: 15px;
+}
+.login.register p.lin{
+  line-height: 27px;
+  width: 80%;
+  margin-bottom: 25px;
+}
+.login.register .usr .img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+}
+.login.register .usr .img img{
+  height: 100%;
+}
+.login.register .usr {
+  padding-left: 120px;
+  position: relative;
+  border-bottom: 1px solid #d3d7d9;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.login.register .usr p {
+  color: #acb0b3;
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.login.register h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #192327;
+  margin-bottom: 15px;
+}
+.login.register .upimg{
+  padding: 0;
+}
+
+.login.register .upimg li {
+  width: 23%;
+  float: left;
+  background: #fff;
+  list-style: none;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin-right: 2%;
+  border-radius: 4px;
+}
+.login.register .upimg li img {
+  height: 46px;
+}
+
+.login.register .form-signin {
+  padding: 35px 30px 25px;
+  width: 90%;
+  float: left;
+}
+
+
+
+
+
+
+
+
+/*********************************** footer **********************************/
+.main-footer {
+  padding: 100px 0 35px;
+  width: 100%;
+  float: left;
+  z-index: 9;
+  position: relative;
+  background: #192327;
+}
+.main-footer p {
+     color: #b5b5b5;
+    line-height: 26px;
+     font-weight: 400;
+     margin-bottom: 0;
+}
+.main-footer .ready {
+  padding: 54px 50px;
+  background-repeat: no-repeat;
+  height: 180px;
+  margin-bottom: 50px;
+  background-size: cover;
+  border-radius: 8px;
+}
+.main-footer .ready h4 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.main-footer .ready .btn {
+  background: #192327;
+  color: #fff;
+  font-weight: 500;
+  width: 200px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0;
+  float: right;
+  margin-top: 14px;
+}
+.main-footer ul {
+    margin: 0;
+    padding: 0;
+}
+.main-footer ul.social {
+  float: right;
+}
+.main-footer ul li {
+  margin-bottom: 15px;
+  padding-left: 0;
+  list-style: none;
+}
+.logo_footer img {
+  height: 60px;
+}
+.main-footer ul li a:hover {
+    color: #00235a;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.main-footer ul li a {
+  color: #b5b5b5;
+  text-decoration: none;
+  font-weight: 500;
+}
+.end_footer {
+  border-bottom: 1px solid #2a3437;
+  border-top: 1px solid #2a3437;
+  padding: 12px 0;
+  margin-top: 50px;
+}
+.main-footer ul.social li a {
+  background: #345a76;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+  color: #fff ;
+  font-size: 22px;
+  border-radius: 50%;
+}
+
+.main-footer ul.social li {
+  float: left;
+  margin-left: 16px;
+  margin-bottom: 0;
+}
+.main-footer h3 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main-footer p a {
+  color: #3d9ddd;
+  text-decoration: navajowhite;
+}
+.try_follow {
+  background: #e2f0fa;
+  padding: 26px 50px;
+  border-radius: 6px;
+  margin-top: -150px;
+}
+.try_follow h4 {
+  color: #192327;
+  font-weight: 600;
+  display: inline-block;
+}
+.try_follow h6 {
+  color: #192327;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 18px;
+}
+.try_follow h6 a {
+  text-decoration: navajowhite;
+  color: #3d9ddd;
+}
+.try_follow form {
+  width: 600px;
+  display: inline-block;
+  padding-right: 160px;
+  position: relative;
+  margin:0 25px;
+}
+.try_follow form .form-control {
+  border: navajowhite;
+  height: 50px;
+  padding: 0 20px;
+}
+.try_follow form .btn{
+  background: #3d9ddd;
+  color: #fff;
+  width: 160px;
+  border: none;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+
+/************** central_system *********************/
+.central_system {
+  background: #f9f5f2;
+  text-align: center;
+  padding: 80px 0 120px;
+}
+.heading h6 {
+  color: #3d9ddd;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+}
+.heading {
+  margin-bottom: 50px;
+}
+.heading h1 {
+  color: #192327;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+.heading p{
+  color:#626262;
+}
+
+.central_system ul{
+  padding: 0;
+}
+.central_system ul li {
+  margin-bottom: 22px;
+  color: #626262;
+}
+
+/** Large devices (desktops, less than 1800px) **/
+@media (max-width: 1799.98px) { 
+
+}
+
+
+/** Large devices (desktops, less than 1600px) **/
+@media (min-width: 1600px) { 
+.container {
+  max-width: 1450px;
+}
+}
+
+/** Large devices (desktops, less than 1600px) **/
+
+@media (max-width: 1599.98px) { 
+}
+
+/** Large devices (desktops, less than 1366px) **/
+@media (max-width: 1399.98px) { 
+
+}
+/** Large devices (desktops, less than 1200px) **/
+@media (max-width: 1199.98px) {
+
+}
+
+/**  Medium devices (tablets, less than 992px) **/
+@media (max-width: 991.98px) {
+
+}
+
+/** Small devices (landscape phones, less than 768px)**/
+@media (max-width: 767.98px) {
+
+}
+
+/** Small devices (landscape phones, less than 575px)**/
+@media (max-width: 575.98px) {
+
+}
+
+/** Small devices (landscape phones, less than 480px)**/
+@media (max-width: 480px) { 
+
+}

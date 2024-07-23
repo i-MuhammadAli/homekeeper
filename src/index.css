@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.button_color {
+  background: #3d9ddd;
+}
+
+.button_color:hover {
+  background: #192327;
+}
+
+.imageup {
+  background: #f7fbfe;
+  text-align: center;
+  border: 1px dashed #3d9ddd;
+  border-radius: 1px;
+  height: 40px;
+  line-height: 30px;
+  margin-top: 1px;
+  position: relative;
+}
+
+.property_section {
+  background: #333;
+}
+
+.home_owner_in .sidbr .set .img {
+  width: 130px;
+  height: 130px;
+}
+
+.home_owner_in .sidbr .set .img img {
+  height: 100%;
+  width: 100%;
+}
+
+.numbers_color {
+  color: #3d9ddd;
+}
+
+.numbers_color_pos {
+  color: rgb(0, 171, 68);
+}
+
+.numbers_color_neg {
+  color: #f55e55;
+}
+
+.info_style{
+  font-weight: 500;
+  color:#626262;
+}
+
+.custom_italic{
+  font-style: italic;
+}
+
+.label_color {
+  color: #626262;
+  font-weight: 500;
+}
+
+.add_client .plan_section .add_task ul {
+  max-height: 430px !important;
+  min-height: 430px !important;
+}
+
+.checkbtn {
+  background: #d1ffbd !important;
+
+  color: green !important;
+}
+
+.edit {
+  padding-right: 10px !important;
+}
+
+.main-footer {
+  z-index: 0;
+}
+
+.form_input_style {
+  color: #515151;
+}
+
+.oscillating-bell {
+  display: inline-block;
+}
+
+.oscillate {
+  animation: oscillate-animation 1s infinite alternate;
+}
+
+@keyframes oscillate-animation {
+  0% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(20deg); /* Adjust the rotation angle for the oscillating effect */
+  }
+}
+
+.header-custom {
+  border-bottom: 2px solid #00000012;
+  /* height: 70px; */
+}
+
+.add_client ul.dollar li span.checkcontainer1 {
+  background: #e2f0fa;
+  height: 45px;
+  display: inline-block;
+  width: 140px;
+  position: relative;
+}
+
+.add_client ul.dollar li span.checkcontainer1 input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  opacity: 0;
+}
+
+.add_client ul.dollar li span.checkcontainer1 .radiobtn span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 42px;
+  font-weight: 500;
+  color: #000;
+}
+
+
+.add_client ul.dollar li span.checkcontainer1 .radiobtn {
+  height: 22px;
+  display: inline-block;
+}
+
+.add_client ul.dollar li span.checkcontainer1 input:checked ~ .radiobtn::after {
+  background: #3d9ddd;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0;
+  margin: auto;
+}
+
+.add_client .tab-pane .st .checkcontainer1 {
+  position: absolute;
+  cursor: pointer;
+  -moz-user-select: none;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 6px;
+  left: 0;
+  top: 5px
+}
+
+.add_client .tab-pane .st .checkcontainer1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding: 0;
+  border: none;
+}
+
+.add_client .tab-pane .st .checkcontainer1 input:checked~.radiobtn:after {
+  display: block;
+
+}
+
+.add_client .tab-pane .st .checkcontainer1 input:checked~.radiobtn::after {
+  background: #3d9ddd;
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  left: 0;
+  text-align: right;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.center_owner .tab-content .set.checkcontainer1 {
+  background: #f6f6f6;
+  padding: 10px 10px 10px 56px;
+  border: 1px solid #ececec;
+  margin: 5px 0;
+  position: relative;
+}
+
+.center_owner .tab-content .set.checkcontainer1 h5 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.center_owner .tab-content .set.checkcontainer1 p {
+  margin: 0;
+  color: #8f8f8f;
+  font-size: 15px;
+  position: relative;
+}
+
+.center_owner .tab-content .set.checkcontainer1 h5 span {
+  color: #8f8f8f;
+  font-size: 14px;
+  float: right;
+  padding-top: 2px;
+  display: flex;
+}
+
+.center_owner .tab-content .set.checkcontainer1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 99999999;
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  top: 13px;
+}
+
+.center_owner .tab-content .set.checkcontainer1 .radiobtn {
+  display: inline-block;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.set.checkcontainer1 input:checked~.radiobtn::after {
+  background-color: #192327;
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  left: 18px;
+  top: 13px;
+  border-radius: 2px;
+  margin: auto;
+  background-image: url('https://digittrix-staging.com/staging/crmapply/homekeeper/images/homekeeper/check.png');
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.center_owner .tab-content .set.checkcontainer1::after {
+  content: "";
+  position: absolute;
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  top: 13px;
+  border-radius: 3px;
+  border: 1px solid #192327;
+}
+
+.center_owner .tab-content .set.checkcontainer1:hover {
+  background: #1ea1d9;
+  color: #fff;
+}
+.center_owner .tab-content .set.checkcontainer1:hover p, .center_owner .tab-content .set.checkcontainer1:hover h5 span{
+color: #fff;
+}
+
+.custom_input {
+  width: 100px;
+  border: none;
+  border-bottom: 1px solid #3d9ddd;
+}
+
+.maintenance_box {
+  background: #f9f5f2;
+}
+
+.maintenance_item_name {
+  /* font-size: 18px; */
+  font-weight: 600;
+}
+
+.maintenance_item_desc {
+  /* font-size: 14px; */
+  color: #9b9999;
+}
+
+.maintenance_image_box {
+  background: #f7fbfe;
+  text-align: center;
+  border: 1px dashed #3d9ddd;
+  border-radius: 4px;
+  line-height: 30px;
+  margin-top: 1px;
+  position: relative;
+  font-weight: 600;
+  color: #000000ab;
+}
